@@ -4,8 +4,7 @@
 \alias{residuals.cmp}
 \title{Extract COM-Poisson Model Residuals}
 \usage{
-\method{residuals}{cmp}(object, type = c("deviance", "pearson",
-  "response"), ...)
+\method{residuals}{cmp}(object, type = c("deviance", "pearson", "response"), ...)
 }
 \arguments{
 \item{object}{an object class 'cmp', obtained from a call to \code{glm.cmp}.}
@@ -19,8 +18,8 @@
 Residuals extracted from the object \code{object}.
 }
 \description{
-\code{residuals} is a generic function which extracts model residuals from objects 
-returned by the modelling function \code{glm.comp}. \code{resid} is an alias for 
+\code{residuals} is a generic function which extracts model residuals from objects
+returned by the modelling function \code{glm.comp}. \code{resid} is an alias for
 \code{residuals} .
 }
 \seealso{
