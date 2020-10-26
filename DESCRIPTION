@@ -2,8 +2,8 @@ Package: mpcmp
 Type: Package
 Title: Mean-Parametrized Conway-Maxwell Poisson (COM-Poisson)
         Regression
-Version: 0.3.5
-Date: 2020-10-16
+Version: 0.3.6
+Date: 2020-10-23
 Authors@R: c(person("Thomas", "Fung", role = c("aut", "cre"),
          email = "thomas.fung.dr@gmail.com",
          comment =c(ORCID = "0000-0003-2601-0728")),
@@ -18,23 +18,23 @@ Description: A collection of functions for estimation, testing and diagnostic ch
 Depends: R (>= 3.2)
 License: GPL-3
 Imports: Rcpp, graphics, grDevices, stats, ggplot2, ggpubr, generics,
-        tibble, dplyr, broom, rlang, stringr, purrr
+        tibble, dplyr, rlang, stringr, purrr
 URL: https://github.com/thomas-fung/mpcmp
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Suggests: knitr, rmarkdown, testthat, spelling, covr, markdown (>=
-        1.1), tidyverse, modelsummary
+        1.1), tidyverse, modelsummary, broom
 BugReports: https://github.com/thomas-fung/mpcmp/issues
 LinkingTo: Rcpp
 Language: en-GB
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2020-10-19 07:40:09 UTC; thomasfung
+Packaged: 2020-10-26 05:30:26 UTC; thomasfung
 Author: Thomas Fung [aut, cre] (<https://orcid.org/0000-0003-2601-0728>),
   Aya Alwan [aut],
   Justin Wishart [aut] (<https://orcid.org/0000-0002-8235-1845>),
   Alan Huang [aut]
 Maintainer: Thomas Fung <thomas.fung.dr@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-10-19 17:10:03 UTC
+Date/Publication: 2020-10-26 06:30:03 UTC
